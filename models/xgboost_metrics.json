@@ -1,0 +1,15 @@
+{
+  "request_id": "15eb4a00-1aa5-4442-8f94-d7415225124c",
+  "timestamp": "2026-04-16T11:35:55.944767+00:00",
+  "model": "xgboost",
+  "accuracy": 1.0,
+  "precision": 1.0,
+  "recall": 1.0,
+  "f1": 1.0,
+  "roc_auc": 1.0,
+  "average_precision": 1.0,
+  "test_samples": 2000,
+  "anomaly_predicted": 100,
+  "anomaly_actual": 100,
+  "scale_pos_weight": 19.0
+}

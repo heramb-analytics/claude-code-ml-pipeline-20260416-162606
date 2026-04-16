@@ -1,0 +1,54 @@
+{
+  "request_id": "0df79ee1-c60a-4974-9ea4-eeaee96f15c0",
+  "timestamp": "2026-04-16T11:35:55.944879+00:00",
+  "models": {
+    "isolation_forest": {
+      "accuracy": 0.964,
+      "precision": 0.6429,
+      "recall": 0.63,
+      "f1": 0.6364,
+      "roc_auc": 0.9861,
+      "average_precision": 0.7179,
+      "test_samples": 2000,
+      "anomaly_predicted": 98,
+      "anomaly_actual": 100
+    },
+    "xgboost": {
+      "accuracy": 1.0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "roc_auc": 1.0,
+      "average_precision": 1.0,
+      "test_samples": 2000,
+      "anomaly_predicted": 100,
+      "anomaly_actual": 100,
+      "scale_pos_weight": 19.0
+    }
+  },
+  "feature_cols": [
+    "log_amount",
+    "amount_zscore",
+    "amount_log_ratio",
+    "amount_squared_log",
+    "num_prev_txn_1h",
+    "distance_from_home_km",
+    "hour_sin",
+    "hour_cos",
+    "dow_sin",
+    "dow_cos",
+    "is_business_hours",
+    "is_weekend",
+    "is_night",
+    "is_foreign",
+    "card_present",
+    "merchant_risk_score",
+    "customer_txn_count",
+    "customer_avg_amount",
+    "customer_amount_std",
+    "customer_max_amount",
+    "amount_vs_customer_avg"
+  ],
+  "train_size": 8000,
+  "test_size": 2000
+}

@@ -1,0 +1,86 @@
+{
+  "request_id": "bc1bd3f3-b897-48b8-8caa-608cb53c37db",
+  "timestamp": "2026-04-16T11:35:19.660325+00:00",
+  "total_checks": 12,
+  "passed": 12,
+  "failed": 0,
+  "checks": [
+    {
+      "check": "row_count_minimum",
+      "passed": true,
+      "value": 10000,
+      "detail": "Expect >= 1000 rows"
+    },
+    {
+      "check": "required_columns",
+      "passed": true,
+      "value": [],
+      "detail": "All required columns present"
+    },
+    {
+      "check": "no_nulls_critical",
+      "passed": true,
+      "value": {
+        "transaction_id": 0,
+        "timestamp": 0,
+        "amount": 0,
+        "is_anomaly": 0
+      },
+      "detail": "Zero nulls in critical columns"
+    },
+    {
+      "check": "amount_range",
+      "passed": true,
+      "value": 0,
+      "detail": "amount in (0, 100_000]"
+    },
+    {
+      "check": "unique_transaction_ids",
+      "passed": true,
+      "value": 0,
+      "detail": "No duplicate transaction IDs"
+    },
+    {
+      "check": "timestamp_not_null",
+      "passed": true,
+      "value": 0,
+      "detail": "All timestamps non-null"
+    },
+    {
+      "check": "anomaly_rate_range",
+      "passed": true,
+      "value": 0.05,
+      "detail": "Anomaly rate between 1% and 15%"
+    },
+    {
+      "check": "hour_of_day_range",
+      "passed": true,
+      "value": 0,
+      "detail": "hour_of_day in [0, 23]"
+    },
+    {
+      "check": "day_of_week_range",
+      "passed": true,
+      "value": 0,
+      "detail": "day_of_week in [0, 6]"
+    },
+    {
+      "check": "num_prev_txn_non_negative",
+      "passed": true,
+      "value": 0,
+      "detail": "num_prev_txn_1h >= 0"
+    },
+    {
+      "check": "merchant_category_known",
+      "passed": true,
+      "value": [],
+      "detail": "merchant_category in {'online', 'gas', 'grocery', 'restaurant', 'travel', 'retail'}"
+    },
+    {
+      "check": "normal_amount_median",
+      "passed": true,
+      "value": 32.56,
+      "detail": "Median normal amount between $5 and $1,000"
+    }
+  ]
+}

@@ -1,0 +1,107 @@
+[
+  {
+    "name": "hour_sin",
+    "dtype": "float64",
+    "description": "Sine of hour_of_day for cyclical encoding"
+  },
+  {
+    "name": "hour_cos",
+    "dtype": "float64",
+    "description": "Cosine of hour_of_day for cyclical encoding"
+  },
+  {
+    "name": "dow_sin",
+    "dtype": "float64",
+    "description": "Sine of day_of_week for cyclical encoding"
+  },
+  {
+    "name": "dow_cos",
+    "dtype": "float64",
+    "description": "Cosine of day_of_week for cyclical encoding"
+  },
+  {
+    "name": "is_business_hours",
+    "dtype": "int64",
+    "description": "1 if transaction occurred between 9\u201317h"
+  },
+  {
+    "name": "month",
+    "dtype": "int32",
+    "description": "Calendar month extracted from timestamp"
+  },
+  {
+    "name": "amount_zscore",
+    "dtype": "float64",
+    "description": "Z-score of log(amount+1)"
+  },
+  {
+    "name": "amount_log_ratio",
+    "dtype": "float64",
+    "description": "Ratio of log_amount to median log_amount"
+  },
+  {
+    "name": "amount_squared_log",
+    "dtype": "float64",
+    "description": "Square of log(amount+1)"
+  },
+  {
+    "name": "customer_txn_count",
+    "dtype": "int64",
+    "description": "Total transactions for this customer"
+  },
+  {
+    "name": "customer_avg_amount",
+    "dtype": "float64",
+    "description": "Mean transaction amount for this customer"
+  },
+  {
+    "name": "customer_amount_std",
+    "dtype": "float64",
+    "description": "Std deviation of transaction amount for this customer"
+  },
+  {
+    "name": "customer_max_amount",
+    "dtype": "float64",
+    "description": "Max transaction amount seen for this customer"
+  },
+  {
+    "name": "amount_vs_customer_avg",
+    "dtype": "float64",
+    "description": "Ratio of current amount to customer's average"
+  },
+  {
+    "name": "cat_gas",
+    "dtype": "int64",
+    "description": "Engineered feature"
+  },
+  {
+    "name": "cat_grocery",
+    "dtype": "int64",
+    "description": "Engineered feature"
+  },
+  {
+    "name": "cat_online",
+    "dtype": "int64",
+    "description": "Engineered feature"
+  },
+  {
+    "name": "cat_restaurant",
+    "dtype": "int64",
+    "description": "Engineered feature"
+  },
+  {
+    "name": "cat_retail",
+    "dtype": "int64",
+    "description": "Engineered feature"
+  },
+  {
+    "name": "cat_travel",
+    "dtype": "int64",
+    "description": "Engineered feature"
+  },
+  {
+    "name": "merchant_risk_score",
+    "dtype": "int64",
+    "description": "Risk score (1\u20133) for merchant category"
+  }
+]

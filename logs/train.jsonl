@@ -1,0 +1,5 @@
+{"request_id": "4b45da2d-ac8d-4a3c-9445-80fc313245e0", "timestamp": "2026-04-16T11:35:55.507356+00:00", "event": "train_start"}
+{"request_id": "59d239a5-efd3-4524-a3b1-b1d8c89c665d", "timestamp": "2026-04-16T11:35:55.583312+00:00", "event": "data_split", "train": 8000, "test": 2000, "anomaly_rate_train": 0.05}
+{"request_id": "191de67c-affa-4628-adce-9a7d9d09aa04", "timestamp": "2026-04-16T11:35:55.801128+00:00", "event": "isolation_forest_trained", "accuracy": 0.964, "precision": 0.6429, "recall": 0.63, "f1": 0.6364, "roc_auc": 0.9861, "average_precision": 0.7179, "test_samples": 2000, "anomaly_predicted": 98, "anomaly_actual": 100}
+{"request_id": "30b7563f-6893-4042-b229-4ba5491594fe", "timestamp": "2026-04-16T11:35:55.943434+00:00", "event": "xgboost_trained", "accuracy": 1.0, "precision": 1.0, "recall": 1.0, "f1": 1.0, "roc_auc": 1.0, "average_precision": 1.0, "test_samples": 2000, "anomaly_predicted": 100, "anomaly_actual": 100, "scale_pos_weight": 19.0}
+{"request_id": "84f1c1a2-f283-4284-aee4-8ce4f542e46a", "timestamp": "2026-04-16T11:35:55.944985+00:00", "event": "train_end", "models_saved": ["isolation_forest", "xgboost"]}

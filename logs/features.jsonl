@@ -1,0 +1,6 @@
+{"request_id": "4d764b22-f519-4ab4-b874-91a85afbfbd8", "timestamp": "2026-04-16T11:35:19.201074+00:00", "event": "features_start"}
+{"request_id": "6fe12409-2891-409e-8c4d-03111d193959", "timestamp": "2026-04-16T11:35:19.247149+00:00", "event": "data_loaded", "rows": 10000}
+{"request_id": "ebc47f41-3f2d-41d7-8b75-30278e19ff82", "timestamp": "2026-04-16T11:35:19.259015+00:00", "event": "features_engineered", "count": 21, "names": ["hour_sin", "hour_cos", "dow_sin", "dow_cos", "is_business_hours", "month", "amount_zscore", "amount_log_ratio", "amount_squared_log", "customer_txn_count", "customer_avg_amount", "customer_amount_std", "customer_max_amount", "amount_vs_customer_avg", "cat_gas", "cat_grocery", "cat_online", "cat_restaurant", "cat_retail", "cat_travel", "merchant_risk_score"]}
+{"request_id": "2070ae97-33d9-46ed-85f6-3ca2c6ea7740", "timestamp": "2026-04-16T11:35:19.270520+00:00", "event": "saved_features", "path": "data/processed/features.parquet", "rows": 10000}
+{"request_id": "b1f5a781-9dab-45dd-a6c9-12650affab54", "timestamp": "2026-04-16T11:35:19.270875+00:00", "event": "saved_schema", "path": "data/processed/feature_schema.json", "features": 21}
+{"request_id": "af5843fc-f95e-46be-a9fe-63ef23110181", "timestamp": "2026-04-16T11:35:19.270922+00:00", "event": "features_end", "total_cols": 38}

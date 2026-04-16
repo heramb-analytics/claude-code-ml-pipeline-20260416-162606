@@ -1,0 +1,14 @@
+{
+  "request_id": "b9fe0ae4-5feb-4982-b3d0-529c99d70211",
+  "timestamp": "2026-04-16T11:35:55.804597+00:00",
+  "model": "isolation_forest",
+  "accuracy": 0.964,
+  "precision": 0.6429,
+  "recall": 0.63,
+  "f1": 0.6364,
+  "roc_auc": 0.9861,
+  "average_precision": 0.7179,
+  "test_samples": 2000,
+  "anomaly_predicted": 98,
+  "anomaly_actual": 100
+}

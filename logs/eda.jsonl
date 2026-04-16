@@ -1,0 +1,8 @@
+{"request_id": "4163eba1-4ff3-485e-b415-a9e55420a1ae", "timestamp": "2026-04-16T11:35:18.040143+00:00", "event": "eda_start"}
+{"request_id": "217b9144-3e01-425b-9809-331cad889556", "timestamp": "2026-04-16T11:35:18.107134+00:00", "event": "data_loaded", "rows": 10000, "cols": ["transaction_id", "timestamp", "amount", "merchant_category", "card_present", "country_code", "hour_of_day", "day_of_week", "customer_id", "merchant_id", "num_prev_txn_1h", "distance_from_home_km", "is_anomaly", "is_weekend", "is_night", "log_amount", "is_foreign"]}
+{"request_id": "2ebe27cb-0660-425a-85a9-1a211154f325", "timestamp": "2026-04-16T11:35:18.173577+00:00", "event": "plot_saved", "figure": "01_target_distribution.png"}
+{"request_id": "6a3ccbe8-9d0f-44e4-ae9f-9e1b3f5e70bd", "timestamp": "2026-04-16T11:35:18.318189+00:00", "event": "plot_saved", "figure": "02_feature_correlations.png"}
+{"request_id": "533179ed-b0d1-4861-a1dc-698c5c86eebc", "timestamp": "2026-04-16T11:35:18.399954+00:00", "event": "plot_saved", "figure": "03_missing_values.png"}
+{"request_id": "bcc1aba4-cce5-4950-89a5-638540f3dc84", "timestamp": "2026-04-16T11:35:18.586767+00:00", "event": "plot_saved", "figure": "04_amount_distribution.png"}
+{"request_id": "baac2d5a-a7f0-49d1-b927-4a382ac2e8c6", "timestamp": "2026-04-16T11:35:18.750263+00:00", "event": "plot_saved", "figure": "05_time_series_trend.png"}
+{"request_id": "abde4175-9d03-4b33-be54-ac73770e7c5f", "timestamp": "2026-04-16T11:35:18.750631+00:00", "event": "eda_end", "figures_saved": ["reports/figures/01_target_distribution.png", "reports/figures/02_feature_correlations.png", "reports/figures/03_missing_values.png", "reports/figures/04_amount_distribution.png", "reports/figures/05_time_series_trend.png"]}
