@@ -1,0 +1,15 @@
+# Credentials
+.env
+*.token
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+
+# Model binaries
+*.pkl
+
+# OS
+.DS_Store
+Thumbs.db

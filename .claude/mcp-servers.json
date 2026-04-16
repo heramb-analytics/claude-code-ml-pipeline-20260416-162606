@@ -1,0 +1,9 @@
+{
+  "_comment": "Reference only. Register servers via: claude mcp add ... -s user",
+  "servers": {
+    "git":        { "command": "uvx", "args": ["mcp-server-git"] },
+    "jira":       { "command": "uvx", "args": ["mcp-atlassian"] },
+    "confluence": { "command": "uvx", "args": ["mcp-atlassian"] },
+    "playwright": { "command": "npx", "args": ["@playwright/mcp@latest"] }
+  }
+}

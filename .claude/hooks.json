@@ -1,0 +1,23 @@
+{
+  "hooks": {
+    "PostToolUse": [
+      {
+        "name": "audit-logger",
+        "matcher": "Write",
+        "command": "python3 -c \"import json,datetime,os; open('logs/audit.jsonl','a').write(json.dumps({'ts':datetime.datetime.utcnow().isoformat(),'event':'file_write','file':os.environ.get('CLAUDE_TOOL_INPUT_PATH','?')})+'\\n')\" 2>/dev/null || true"
+      },
+      {
+        "name": "stage-sound",
+        "matcher": "Bash",
+        "command": "afplay /System/Library/Sounds/Tink.aiff 2>/dev/null || true"
+      }
+    ],
+    "PostToolError": [
+      {
+        "name": "error-sound",
+        "matcher": "*",
+        "command": "afplay /System/Library/Sounds/Sosumi.aiff 2>/dev/null || true"
+      }
+    ]
+  }
+}
